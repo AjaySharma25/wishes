@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Happy Birthday!</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #FFC3A0, #FF677D);
+            text-align: center;
+            font-family: Lobster, cursive;
+	    display: flex;
+            justify-content: center;
+            allign-items: center;
+            min-height: 100vh;
+	    position: relative;
+	    overflow: hidden;
+        }
+
+	.heart-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .heart {
+            color: #FF3E89;
+            position: absolute;
+            animation: pulse 1s infinite alternate;
+        }
+	
+        .heart::before {
+            content: "💕";
+            font-size: 20px;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .heart:nth-child(2) {
+            left: 20%;
+            top: 20%;
+        }
+
+        .heart:nth-child(3) {
+            left: 40%;
+            top: 40%;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 50px auto;
+            padding: 40px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .left-photos {
+            display: flex;
+	    flex-direction: column;
+            allign-items: center;
+        }
+        .left-photo, .left-photo1 {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin: 0 10px; /* Add horizontal margin between photos */
+            margin: 0 10px 20px 0;
+        }
+	.left-photos2 {
+            display: flex;
+	    flex-direction: column;
+            allign-items: center;
+        }
+        .left-photo3, .left-photo4 {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin: 0 10px; /* Add horizontal margin between photos */
+            margin: 0 10px 20px 0;
+        }
+        .birthday-content {
+            flex: 3;
+        }
+        .right-photos {
+            display: flex;
+	    flex-direction: column;
+            allign-items: center;
+        }
+        .right-photo, .right-photo1 {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+	    margin: 0 10px;
+            margin: 0 10px 20px 0; /* Add horizontal margin between photos */
+        }
+	.right-photos2 {
+            display: flex;
+	    flex-direction: column;
+            allign-items: center;
+        }
+        .right-photo3, .right-photo4 {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+	    margin: 0 10px;
+            margin: 0 10px 20px 0; /* Add horizontal margin between photos */
+        }
+        h1 {
+            color: #ff69b4; /* Pink header text color */
+        }
+        .flowers {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+	<div class="heart-container">
+        <div class="heart" style="left: 1%; top: 5%;"></div>
+        <div class="heart" style="left: 13%; top: 49%;"></div>
+        <div class="heart" style="left: 31%; top: 5%;"></div>
+
+	<div class="heart" style="right: 1%; top: 5%;"></div>
+        <div class="heart" style="right: 14%; top: 49%;"></div>
+        <div class="heart" style="right: 31%; top: 5%;"></div>
+
+	
+	<div class="heart" style="left: 1%; bottom: 5%;"></div>
+        <div class="heart" style="left: 31%; bottom: 5%;"></div>
+
+	<div class="heart" style="right: 1%; bottom: 5%;"></div>
+        <div class="heart" style="right: 31%; bottom: 5%;"></div>
+
+        <!-- Add more .heart elements with different positions for a more random effect -->
+    </div>
+
+
+    <div class="container">
+        <div class="left-photos">
+            <div class="left-photo">
+                <img src="birth6.jpg" alt="Left Photo" class="flowers">
+            </div>
+
+            <div class="left-photo1">
+                <img src="birth7.jpg" alt="Left Photo" class="flowers">
+            </div>
+        </div>
+
+	<div class="left-photos2">
+            <div class="left-photo3">
+                <img src="birth8.jpg" alt="Left Photo" class="flowers">
+            </div>
+
+            <div class="left-photo4">
+                <img src="birth9.jpg" alt="Left Photo" class="flowers">
+            </div>
+            <!-- Add more left photos as needed -->
+        </div>
+
+        <div class="birthday-content">
+            <img src="rosean.jpg" alt="Beautiful Flowers" class="flowers">
+            <h1 style="font-family: Arial; font-weight: bold; color: black;">Happy Birthday Anumaa!💌</h1>
+            <p>Having you in my life is the best thing that has happened to me till now. I'll promise you that I'll be with you forever 🤗</p>
+            <p>Looking at all those fights, those happy times, those anger, those irritations, those annoying things, you are the perfect WIFE MATERIAL!💑</p>
+	    <p>I love you the most bangaram 😘 We will be together forever</p>
+            <p>With all my love ∞,</p>
+	    <p style="font-weight: bold;">Motu🐼</p>
+        </div>
+
+        <div class="right-photos">
+            <div class="right-photo">
+                <img src="birth10.jpg" alt="Right Photo" class="flowers">
+            </div>
+
+            <div class="right-photo1">
+                <img src="birth11.jpg" alt="Right Photo" class="flowers">
+            </div>
+        </div>
+
+	<div class="right-photos2">
+            <div class="right-photo3">
+                <img src="birth12.jpg" alt="Right Photo" class="flowers">
+            </div>
+
+            <div class="right-photo4">
+                <img src="birth13.jpg" alt="Right Photo" class="flowers">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
